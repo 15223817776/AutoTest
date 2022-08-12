@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="suiteName">
+    <test name="runAll">
+        <classes>
+            <class name="com.course.tsstng.group.GroupClass1"/>
+            <class name="com.course.tsstng.group.GroupClass2"/>
+            <class name="com.course.tsstng.group.GroupClass3"/>
+        </classes>
+    </test>
+    <test name="onlyRunStudent">
+        <groups>
+            <run>
+                <include name="student"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.tsstng.group.GroupClass1"/>
+            <class name="com.course.tsstng.group.GroupClass2"/>
+            <class name="com.course.tsstng.group.GroupClass3"/>
+        </classes>
+    </test>
+</suite>
