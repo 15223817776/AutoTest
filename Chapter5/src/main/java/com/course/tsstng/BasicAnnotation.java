@@ -1,7 +1,6 @@
 package com.course.tsstng;
 
 
-
 import org.testng.annotations.*;
 
 public class BasicAnnotation {
